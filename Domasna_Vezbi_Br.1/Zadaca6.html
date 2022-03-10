@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      form{
+        padding: 30px 30px;  
+      }
+      body{
+        font-weight: bold;
+        position: relative;
+      }
+      .form-check{
+        display: inline-block;
+        padding-left: 29px;
+        font-weight: lighter;
+      }
+      .form-check-inline2{
+        margin-left: 100px;
+        margin-top: -25px;
+      }.form-check-inline3{
+        margin-left: 220px;
+        margin-top: -25px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="row g-3">
+      <div class="col-md-8">
+        <label for="formGroupExampleInput" class="form-label">Movie title</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault04" class="form-label">Genre</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">Choose a genre...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-md-4">
+        <label for="formGroupExampleInput" class="form-label">Director</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+      </div>
+      <div class="col-md-4">
+        <label for="formGroupExampleInput" class="form-label">Writer</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+      </div>
+      <div class="col-md-4">
+        <label for="formGroupExampleInput" class="form-label">Producer</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+      </div>
+      <div class="col-md-6">
+        <label for="inputAddress2" class="form-label">Website</label>
+        <input
+          type="url"
+          class="form-control"
+          id="inputAddress2"
+          placeholder=""
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputAddress2" class="form-label">Youtube trailer url</label>
+        <input
+          type="url"
+          class="form-control"
+          id="inputAddress2"
+          placeholder=""
+        />
+      </div>
+      
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Review</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div>
+        <label> Rating</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Terrible</label>
+      </div>
+      <div class="form-check form-check-inline2">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Watchable</label>
+      </div>
+      <div class="form-check form-check-inline3">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option3">
+        <label class="form-check-label" for="inlineRadio2">Best ever</label>
+      </div>
+      
+      </div>
+      <div class="col-12">
+        <button type="button" class="btn btn-danger">Cancel<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+          <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+        </svg></button>
+        <button type="button" class="btn btn-success">Submit <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+        </svg></button>
+       
+       
+        
+      </div>
+    </form>
+  </body>
+</html>
